@@ -12,6 +12,11 @@ public class FIZZBIZZ_TEST {
     public void testFizz() {
     assertEquals("Fizz", FIZZBIZZ.think(3));
 }
+@Test
+public void testFizzBuzz() {
+    assertEquals("FizzBuzz", FIZZBIZZ.think(15));
+}
+
 
    
 }
