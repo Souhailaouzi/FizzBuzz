@@ -5,18 +5,20 @@ import org.junit.jupiter.api.Test;
 public class FIZZBIZZ_TEST {
     @Test
     public void testBuzz() {
-        assertEquals("Buzz", FIZZBIZZ.think(5));
+        assertEquals("1 2 Fizz 4 Buzz", FIZZBIZZ.think(5));
     }
 
     @Test
     public void testFizz() {
-    assertEquals("Fizz", FIZZBIZZ.think(3));
+    assertEquals("1 2 Fizz", FIZZBIZZ.think(3));
 }
 @Test
 public void testFizzBuzz() {
-    assertEquals("FizzBuzz", FIZZBIZZ.think(15));
+    assertEquals("1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz", FIZZBIZZ.think(15));
 }
 
-
-   
+@Test
+public void testNumbersAndSpace() {
+    assertEquals("1 2 Fizz 4 Buzz", FIZZBIZZ.think(5));
+}   
 }

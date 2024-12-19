@@ -10,6 +10,11 @@ public class FIZZBIZZ {
                 output = output + "Fizz";
             } else if(i % 5 == 0) {
                 output = output + "Buzz";
+            } else {
+                output = output + i;
+            }
+            if(i < nbr) {
+                output = output + " ";  // Ajouter un espace entre les résultats
             }
         }
         return output;
