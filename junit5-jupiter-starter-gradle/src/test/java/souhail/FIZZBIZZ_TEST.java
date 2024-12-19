@@ -7,5 +7,11 @@ public class FIZZBIZZ_TEST {
     public void testBuzz() {
         assertEquals("Buzz", FIZZBIZZ.think(5));
     }
+
+    @Test
+    public void testFizz() {
+    assertEquals("Fizz", FIZZBIZZ.think(3));
+}
+
    
 }
