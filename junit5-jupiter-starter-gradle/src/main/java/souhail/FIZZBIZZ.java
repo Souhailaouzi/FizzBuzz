@@ -7,8 +7,12 @@ public class FIZZBIZZ {
             if(i % 5 == 0) {
                 output = output + "Buzz";
             }
+            else if(i % 3 == 0) {
+                output = output + "Fizz";
+            }
         }
         return output;
     }
-    }
+}
+
   
